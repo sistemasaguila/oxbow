@@ -29,7 +29,7 @@
         <url>https://github.com/eugener/oxbow</url>
         <connection>scm:git:https://github.com/eugener/oxbow.git</connection>
         <developerConnection>scm:git:https@github.com:eugener/oxbow.git</developerConnection>
-        <tag>swingbits-1.2.0</tag>
+        <tag>swingbits-1.3.0</tag>
     </scm>
 
     <distributionManagement>
