@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.oxbow</groupId>
     <artifactId>swingbits</artifactId>
-    <version>1.2.1</version>
+    <version>1.3.0</version>
     <name>Oxbow Project</name>
     <description>A collection of useful components and utilities for Java Swing Toolkit</description>
     <url>https://github.com/eugener/oxbow</url>
@@ -25,13 +25,6 @@
         </developer>
     </developers>
 
-    <scm>
-        <url>https://github.com/eugener/oxbow</url>
-        <connection>scm:git:https://github.com/eugener/oxbow.git</connection>
-        <developerConnection>scm:git:https@github.com:eugener/oxbow.git</developerConnection>
-        <tag>swingbits-1.3.0</tag>
-    </scm>
-
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -47,8 +40,8 @@
     <dependencies>
 		<dependency>
 		    <groupId>com.miglayout</groupId>
-		    <artifactId>miglayout-swing</artifactId>
-		    <version>11.0</version>
+		    <artifactId>miglayout</artifactId>
+		    <version>3.7.4</version>
 		</dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -57,19 +50,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>oxbow-repository</id>
-            <url>https://github.com/eugener/oxbow/raw/master/maven/repository</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <profiles>
         <profile>
